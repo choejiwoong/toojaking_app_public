@@ -37,7 +37,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2635507999";
+    const serviceWorkerVersion = "3282766717";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -59,4 +59,28 @@
     });
   </script>
 </body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyB9BeDPNVGx12W3SWclC9CB9ekkkE4f5ZA",
+      authDomain: "toojakingapp.firebaseapp.com",
+      databaseURL: "https://toojakingapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "toojakingapp",
+      storageBucket: "toojakingapp.appspot.com",
+      messagingSenderId: "278866192886",
+      appId: "1:278866192886:web:3d45d3b0fe3a2e771dffd7",
+      measurementId: "G-REHR5PQZGL"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </html>
