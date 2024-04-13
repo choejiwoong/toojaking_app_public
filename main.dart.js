@@ -118558,7 +118558,7 @@ A.V8.prototype={
 F(a){var s=null,r="/google_sign_in_page",q=A.b([A.QX(s,new A.apM(),t.sS),A.QX(s,new A.apN(),t.By)],t.Ds),p=A.Ah(s,B.Gq,!0)
 return A.bdr(new A.FY(new A.pV(s),A.Y([r,new A.apO(),"/home_page",new A.apP(),"/universe_page",new A.apQ(),"/trading_page",new A.apR(),"/portfolio_page",new A.apS()],t.N,t.Ab),r,p,!1,s),q)}}
 A.apM.prototype={
-$1(a){var s=new A.Th("278866192886-krsto8kbvf0fqmh7h1p5p79d3f61ao5e.apps.googleusercontent.com",new A.dH(null,null,t.io))
+$1(a){var s=new A.Th("278866192886-7886qvn6ieq97vhadk2lbh4cin3ec6nc.apps.googleusercontent.com",new A.dH(null,null,t.io))
 s.Dn()
 return new A.tV(s,$.ai())},
 $S:699}
